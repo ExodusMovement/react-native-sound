@@ -3,7 +3,7 @@
 var ReactNative = require('react-native');
 var RNSound = ReactNative.NativeModules.RNSound;
 var IsAndroid = RNSound.IsAndroid;
-var IsWindows = RNSound.IsWindows;
+var IsWindows = false;
 var resolveAssetSource = require("react-native/Libraries/Image/resolveAssetSource");
 var eventEmitter = new ReactNative.NativeEventEmitter(RNSound);
 
